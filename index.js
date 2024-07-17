@@ -29,7 +29,7 @@ function renderFilms(data) {
       <img src="${movie.poster}" height="500px" width="300px"/>
       <h2 class="bold-text">${movie.title}</h2>
       <p class="bold-text">${movie.description}</p>
-      <p class="film-byline">Made by ABVSS1300</p>
+      <p class="film-byline">Made by Arman-ismail</p>
       <p><span class="highlight bold-text">Runtime: ${movie.runtime}</span></p>
       <p><span class="highlight bold-text">Showtime: ${movie.showtime}</span></p>
       <p class="bold-italic-text">Available tickets: ${(movie.capacity) - (movie.tickets_sold)}</p>
